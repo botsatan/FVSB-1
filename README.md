@@ -1,18 +1,30 @@
-BotProtect Update V2.0
+# LineVodka
+_May the Vodka be with you..._
 
-Menggunakan script LineVodka dari MerKremont dan dicampur script LIN3-TCR dari alfathdirk
+Tutorial
+------
+Recomended for python 2.7
 
-Cara install sama seperti BotKick / Line Vodka / LIN3-TCR
- 
+Using git :
 
-Bot akan langsung kick jika ada :
-- Member nyalain/matiin QR Group
-- Member ubah nama grup
-- Member ubah foto profil grup
-- Member Ngusir Member lain atau Calon Member Lain
+    $ git clone http://github.com/merkremont/LineVodka
 
-Bot akan otomatis undang jika ada :
-- Korban yang kena kick oleh member lain
+Python packages :
 
+    $ pip install thrift==0.9.3
+    $ pip install rsa
+    $ pip install requests
 
-Created by Farzain - zFz
+Run Vodka :
+
+    $ python vodkabot.py
+
+Video Tutorial
+------
+
+[![Tutorial Build BOT LINE Unofficial Protector and Kicker Group](http://i.imgur.com/C8xYq7v.png "Tutorial Build BOT LINE Unofficial Protector and Kicker Group")](https://youtu.be/anoF3jnWl2A)
+
+Author
+------
+
+Merk Kremont / [@merkremont](https://twitter.com/merkremont)
